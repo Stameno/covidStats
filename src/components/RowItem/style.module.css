@@ -1,0 +1,33 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: row;
+    max-width: 900px;
+}
+.columnContainer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.text {
+    color: #000;
+    flex-direction: row;
+    display: flex;
+    width: 40%;
+}
+.infoButton {
+    color: #0653a8;
+    margin-right: 20px;
+}
+.actionsContainer {
+    flex-direction: row;
+    display: flex;
+    align-self: flex-end;
+}
+.infoButton:hover {
+    cursor: pointer;
+}
