@@ -1,0 +1,37 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.text {
+    color: #000;
+    flex-direction: row;
+    display: flex;
+    font-weight: 600;
+}
+.label {
+    color: #000;
+    flex-direction: row;
+    display: flex;
+    margin-right: 10px;
+}
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.historyButton {
+    background-color: #0095a8;
+    padding: 7px 12px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.historyButton:hover {
+    cursor: pointer;
+}
+.link {
+    text-decoration: none;
+}

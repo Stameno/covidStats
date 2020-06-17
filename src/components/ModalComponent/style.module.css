@@ -1,0 +1,31 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.contentContainer {
+    width: 100%;
+    max-width: 800px;
+}
+.close {
+    align-self: flex-end;
+    width: 100%;
+    text-align: right;
+    color: #0653a8;
+}
+.title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.tableContainer {
+    overflow: scroll;
+    height: 650px;
+    width: 100%;
+}
